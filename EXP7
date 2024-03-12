@@ -35,10 +35,7 @@ $scope.readUser=function(user)
 {
 user.editing=true
 }
-21CSL581 ANGULAR JS Laboratory
-18
-Department of Computer Science & Engg., BIT
- $scope.updateUser=function(user){
+$scope.updateUser=function(user){
 user.editing=false
 }
 $scope.deleteUser=function(user)
@@ -76,9 +73,6 @@ Enther the User Email:<input type="text" ng-model="newUserEmail">
 <span
 ng-how="!user.editing">{{user.name}}</span>&nbsp;&nbsp;&nbsp;&nbsp
 <input type="text" ng-show="user.editing" ng-model="user.name">
-21CSL581 ANGULAR JS Laboratory
-19
-Department of Computer Science & Engg., BIT
 </td>
 <td>
 <span ng-show="!user.editing">{{user.email}}</span>
