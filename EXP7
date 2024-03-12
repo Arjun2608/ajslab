@@ -1,5 +1,3 @@
-Write an AngularJS program to create a simple CRUD application (Create, 
-Read, Update, and Delete) for managing users.
 <!DOCTYPE html>
 <html>
 <title>USER MANAGEMENT APPLICATION</title>
