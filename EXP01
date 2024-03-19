@@ -10,8 +10,8 @@ src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js">
 <script>
 var app=angular.module("myApp",[]);
 app.controller("myCntrl",function($scope){
-$scope.firstName="Harish Kumar"
-$scope.lastName="B T"
+$scope.firstName="Arjun"
+$scope.lastName="Karthik"
 });
 </script>
 </head>
